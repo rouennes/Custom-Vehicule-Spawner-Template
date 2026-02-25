@@ -69,3 +69,4 @@ You can add as many vehicles as needed.
 
 This template can easily be integrated into your own custom map mod.
 
+
