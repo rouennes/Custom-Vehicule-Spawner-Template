@@ -11,7 +11,7 @@ local FIXED_VEHICLES = {
         -- Y = horizontale rotation (yaw) (0 = North, 90 = East, 180 = South, 270 = West)
         angles = {0, 270, 0},
     },
-    -- Here you can add a second vehicle :
+    -- Here you can add more vehicles :
     --{
     --    id    = "randomID_02",
     --    vtype = "Base.Template_02",
@@ -74,4 +74,5 @@ Events.OnGameStart.Add(spawnAll)
 
 if Events.LoadGridsquare and Events.LoadGridsquare.Add then
     Events.LoadGridsquare.Add(spawnAll)
+
 end
