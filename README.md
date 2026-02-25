@@ -52,11 +52,11 @@ If you simply want to spawn a vanilla vehicle, use its original script without c
 
 To configure vehicle spawning, open: YourModName\42\media\lua\server\VehicleSpawner.lua  
 This file is already commented to guide you.  You will need to:  
-Define a unique identifier (prevents multiplayer desync) ;  
-Set the correct vehicle name (Base.YourVehicleName) ;  
-Enter precise coordinates ;  
+Define a unique identifier (prevents multiplayer desync) ,  
+Set the correct vehicle name (Base.YourVehicleName) ,  
+Enter precise coordinates ,  
+Configure vehicle orientation (Yaw).  
 
-Configure vehicle orientation (Yaw) :  
 Yaw reference:  
 0 = facing North  
 90 = facing East  
@@ -69,6 +69,7 @@ Yaw reference:
 You can add as many vehicles as needed.
 
 This template can easily be integrated into your own custom map mod.
+
 
 
 
