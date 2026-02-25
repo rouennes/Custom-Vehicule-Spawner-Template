@@ -29,6 +29,7 @@ skin
 {
     texture = Vehicles/vehicle_templateskin,
 }
+
 ⚠ Make sure the PNG filename exactly matches the name used in the script.
 
 
@@ -57,4 +58,5 @@ Yaw reference:
 ⚠ This template does not support indoor vehicle spawning.
 
 You can add as many vehicles as needed.
+
 This template can easily be integrated into your own custom map mod.
